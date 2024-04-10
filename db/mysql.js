@@ -6,7 +6,7 @@ const sequelize = new Sequelize({
   dialect: "mysql",
   port:"",
   database: "testsql",
-  password:"ballmann"
+  password:""
 });
 sequelize.sync().then(() => {
   console.log(`Database & tables created!`);

@@ -5,7 +5,7 @@ const sequelize = new Sequelize({
   dialect: "",
   database:"",
   password:"",
-  port:,
+  port:"",
 });
 sequelize.sync().then(() => {
   console.log(`Database & tables created!`);
